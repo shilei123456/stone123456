@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>Bootstrap</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body style="margin: 50px;">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>编号</th>
+					<th>姓名</th>
+					<th>年龄</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>小王</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>小花</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>小李</td>
+					<td>33</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!--<form class="form-inline">   变成横向排列-->
+		
+		<form>
+			<div class="form-group has-success has-feedback">
+				<label class="control-label">用户名</label>
+				<input type="text" class="form-control has-success" placeholder="请输入用户名" />
+				<span class="glyphicon glyphicon-ok control-label form-control-feedback"></span>
+			</div>
+			<div class="form-group">
+				<label>密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+				<input type="password" class="form-control" placeholder="请输入密码" />
+			</div>
+			<div class="input-group">
+				<div class="input-group-addon">￥</div>
+				<input type="text" class="form-control" />
+				<div class="input-group-addon">.00</div>
+			</div>
+		</form>
+		<form class="form-horizontal" style="margin-top: 10px;">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">用户名</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" placeholder="请输入用户名" />
+				</div>
+			</div>
+		</form>
+		<!--
+        	响应式图片
+		<img src="img/timg.jpg" alt="柳岩" class="img-circle img-responsive" /> 
+		-->
+		
+		<script type="text/javascript" src="js/jquery-3.2.0.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	</body>
+</html>
